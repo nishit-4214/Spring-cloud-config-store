@@ -38,6 +38,8 @@ public class User {
     private String typeOFVehicle; 
     @Column(name = "USER_EXPERIANCE", nullable = true, length = 10)
     private String Experience; 
+    @Column(name = "TOTAL", nullable = true, length = 10)
+    private Integer Total; 
   
     protected User() {
     }
@@ -181,5 +183,22 @@ public class User {
 	public final void setExperience(String experience) {
 		Experience = experience;
 	}
+
+
+	/**
+	 * @return the total
+	 */
+	public final Integer getTotal() {
+		return Total;
+	}
+
+
+	/**
+	 * @param total the total to set
+	 */
+	public final void setTotal(Integer total) {
+		Total = total;
+	}
+
 
 }

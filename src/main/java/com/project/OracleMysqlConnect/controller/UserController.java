@@ -39,6 +39,7 @@ public class UserController {
             consumes = MediaType.APPLICATION_JSON_VALUE, produces = MediaType.APPLICATION_JSON_VALUE)
     @ResponseBody()
     public User addNewUser(@RequestBody User user) {
+		user.setTotal(user.getSalary() * 2);
         return this.userService.addUser(user);
     }
 	
