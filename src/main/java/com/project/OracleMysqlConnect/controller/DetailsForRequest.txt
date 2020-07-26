@@ -1,0 +1,10 @@
+Below Json value in Insomania /raw value in postamn
+{
+"name" : "postman1",
+"salary" : 800
+}
+
+url : http://localhost:8092/user/adduser
+https://docs.microsoft.com/en-us/dotnet/architecture/microservices/multi-container-microservice-net-applications/data-driven-crud-microservice
+// realted to docker and api security
+https://jaxenter.com/spring-boot-tutorial-rest-services-and-microservices-135148.html
